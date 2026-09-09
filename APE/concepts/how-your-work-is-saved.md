@@ -11,9 +11,9 @@ The agent is instructed to commit after every change, before it reports back to 
 This is a hard rule in the agent's instructions rather than a habit it might drift out of, because the whole history feature depends on it. Messages are written in the imperative and explain *why* rather than *what*:
 
 ```
-Fix race condition in session port allocation
+Fix a problem when two sessions start at the same time
 
-Make preview cache headers stronger to stop stale chunks
+Make sure the preview shows your latest changes instead of an older version
 ```
 
 ## Autosave catches everything else[​](#autosave-catches-everything-else "Direct link to Autosave catches everything else")
