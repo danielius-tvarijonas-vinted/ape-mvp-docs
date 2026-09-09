@@ -1,0 +1,35 @@
+# APE
+
+> APE documentation
+
+
+## ape-mvp-docs
+
+How to get access, what every part of the workspace does, and how to ship what you build.
+
+- [APE documentation](/index.md): How to get access, what every part of the workspace does, and how to ship what you build.
+
+### search
+
+- [Search the documentation](/search.md)
+
+### APE
+
+- [How your work is saved](/APE/concepts/how-your-work-is-saved.md): Every prompt is a commit. Nothing reaches master without a pull request.
+- [Sessions](/APE/concepts/sessions.md): A container, a branch, and an agent – and what happens when you walk away.
+- [Templates and projects](/APE/concepts/templates-and-projects.md): Sandbox scaffolds, real Vinted repos, and the ones you make yourself.
+- [Getting access](/APE/getting-started/getting-access.md): Two clicks and one command. About a minute, once.
+- [Introduction](/APE/getting-started/introduction.md): What APE is, who it's for, and where it's going.
+- [Quick start](/APE/getting-started/quick-start.md): From nothing to a working prototype in five minutes.
+- [CLI SSH onboarding](/APE/reference/cli-and-ssh-onboarding.md): For engineers who want to work on a session in Cursor over SSH.
+- [Reference](/APE/reference/reference.md): Statuses, limits, costs, and every aiw command.
+- [Troubleshooting](/APE/reference/troubleshooting.md): What to do when it doesn't work.
+- [Publishing](/APE/shipping/publishing.md): A public URL for a prototype, and keeping it current.
+- [Pull requests](/APE/shipping/pull-requests.md): From a branch to something reviewable.
+- [Files and history](/APE/the-workspace/files-and-history.md): Seeing what changed, editing it yourself, and going back.
+- [Pointing at things](/APE/the-workspace/pointing-at-things.md): Clicking a thing instead of describing it.
+- [Prompting the agent](/APE/the-workspace/prompting-the-agent.md): What to say, how big asks get planned, and the three things Enter can do.
+- [The live preview](/APE/the-workspace/the-live-preview.md): The real app, running, with a URL bar.
+- [The session screen](/APE/the-workspace/the-session-screen.md): A tour of the two panes, the header, and everything behind Advanced.
+- [Comments and notes](/APE/working-with-others/comments-and-notes.md): Feedback attached to a thing, and messages meant for a person.
+- [Sharing](/APE/working-with-others/sharing.md): Who can see your prototype, and who can change it.

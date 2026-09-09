@@ -1,0 +1,122 @@
+<!doctype html><html lang=en dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-APE/concepts/sessions" data-has-hydrated=false><head><meta charset=UTF-8><meta name=generator content="Docusaurus v3.10.2"><title data-rh=true>Sessions | APE</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"/><meta data-rh=true name=twitter:card content=summary_large_image /><meta data-rh=true property=og:url content=https://danielius-tvarijonas-vinted.github.io/ape-mvp-docs/APE/concepts/sessions /><meta data-rh=true property=og:locale content=en /><meta data-rh=true name=docusaurus_locale content=en /><meta data-rh=true name=docsearch:language content=en /><meta data-rh=true name=docusaurus_version content=current /><meta data-rh=true name=docusaurus_tag content=docs-default-current /><meta data-rh=true name=docsearch:version content=current /><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current /><meta data-rh=true property=og:title content="Sessions | APE"/><meta data-rh=true name=description content="A container, a branch, and an agent – and what happens when you walk away."/><meta data-rh=true property=og:description content="A container, a branch, and an agent – and what happens when you walk away."/><link data-rh=true rel=icon href=/ape-mvp-docs/img/favicon.png /><link data-rh=true rel=canonical href=https://danielius-tvarijonas-vinted.github.io/ape-mvp-docs/APE/concepts/sessions /><link data-rh=true rel=alternate href=https://danielius-tvarijonas-vinted.github.io/ape-mvp-docs/APE/concepts/sessions hreflang=en /><link data-rh=true rel=alternate href=https://danielius-tvarijonas-vinted.github.io/ape-mvp-docs/APE/concepts/sessions hreflang=x-default /><script>!function(){try{var t=localStorage.getItem("bloom-bu");document.documentElement.setAttribute("data-bu",-1!==["mp","vgo","int","vpay"].indexOf(t)?t:"mp")}catch(t){document.documentElement.setAttribute("data-bu","mp")}}()</script><link rel=stylesheet href=/ape-mvp-docs/assets/css/styles.8173c03d.css /><script src=/ape-mvp-docs/assets/js/runtime~main.867c8736.js defer></script><script src=/ape-mvp-docs/assets/js/main.76ad19c0.js defer></script></head><body><svg style="display: none;"><defs>
+<symbol id=theme-svg-external-link viewBox="0 0 24 24"><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t;document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><link rel=preload as=image href=/ape-mvp-docs/img/vinted-logo.png /><div role=region aria-label="Skip to main content"><a class=skipToContent_FoKQ href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><nav aria-label=Main class="theme-layout-navbar navbar navbar--fixed-top"><div class=navbar__inner><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/ape-mvp-docs/><div class=navbar__logo><img src=/ape-mvp-docs/img/vinted-logo.png alt="Vinted Design" class="themedComponent_kBZu themedComponent--light_zFNK" height=36 width=148 /><img src=/ape-mvp-docs/img/vinted-logo.png alt="Vinted Design" class="themedComponent_kBZu themedComponent--dark_x_8m" height=36 width=148 /></div></a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class=navbarSearchContainer_IMC9><div class=dsla-search-wrapper><div class=dsla-search-field></div><div style=display:none><a tabindex=-1 aria-hidden=true href=/ape-mvp-docs/APE/getting-started/introduction>Introduction</a><a tabindex=-1 aria-hidden=true href=/ape-mvp-docs/APE/getting-started/quick-start>Quick start</a><a tabindex=-1 aria-hidden=true href=/ape-mvp-docs/APE/reference/troubleshooting>Troubleshooting</a></div></div></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="theme-layout-main main-wrapper mainWrapper_f6sw"><div class=docsWrapper_x_Kl><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_vWtk" type=button></button><div class=docRoot_oU_O><aside class="theme-doc-sidebar-container docSidebarContainer_fjjZ"><div class=sidebarViewport_iZQH><div class=sidebar_wyyK><div class=bloom-sidebar-split><nav class=bloom-sidebar-primary-menu aria-label="Site sections"><a aria-current=true href=/ape-mvp-docs/><span class=bloom-sidebar-primary-menu__icon data-icon=ape aria-hidden=true></span><span class=bloom-sidebar-primary-menu__label>APE</span></a></nav><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_Gjv9"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/ape-mvp-docs/><span class=linkLabel_sH6V>APE documentation</span></a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_CET1 menu__link menu__link--sublist menu__link--sublist-caret" role=button aria-expanded=true href=/ape-mvp-docs/APE/getting-started/introduction><span class=categoryLinkLabel_KTwE>Getting started</span></a></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/getting-started/introduction><span class=linkLabel_sH6V>Introduction</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/getting-started/getting-access><span class=linkLabel_sH6V>Getting access</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/getting-started/quick-start><span class=linkLabel_sH6V>Quick start</span></a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_CET1 menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role=button aria-expanded=true href=/ape-mvp-docs/APE/concepts/sessions><span class=categoryLinkLabel_KTwE>Concepts</span></a></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href=/ape-mvp-docs/APE/concepts/sessions><span class=linkLabel_sH6V>Sessions</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/concepts/how-your-work-is-saved><span class=linkLabel_sH6V>How your work is saved</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/concepts/templates-and-projects><span class=linkLabel_sH6V>Templates and projects</span></a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_CET1 menu__link menu__link--sublist menu__link--sublist-caret" role=button aria-expanded=true href=/ape-mvp-docs/APE/the-workspace/the-session-screen><span class=categoryLinkLabel_KTwE>The workspace</span></a></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/the-workspace/the-session-screen><span class=linkLabel_sH6V>The session screen</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/the-workspace/prompting-the-agent><span class=linkLabel_sH6V>Prompting the agent</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/the-workspace/the-live-preview><span class=linkLabel_sH6V>The live preview</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/the-workspace/pointing-at-things><span class=linkLabel_sH6V>Pointing at things</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/the-workspace/files-and-history><span class=linkLabel_sH6V>Files and history</span></a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_CET1 menu__link menu__link--sublist menu__link--sublist-caret" role=button aria-expanded=true href=/ape-mvp-docs/APE/working-with-others/sharing><span class=categoryLinkLabel_KTwE>Working with others</span></a></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/working-with-others/sharing><span class=linkLabel_sH6V>Sharing</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/working-with-others/comments-and-notes><span class=linkLabel_sH6V>Comments and notes</span></a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_CET1 menu__link menu__link--sublist menu__link--sublist-caret" role=button aria-expanded=true href=/ape-mvp-docs/APE/shipping/pull-requests><span class=categoryLinkLabel_KTwE>Shipping</span></a></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/shipping/pull-requests><span class=linkLabel_sH6V>Pull requests</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/shipping/publishing><span class=linkLabel_sH6V>Publishing</span></a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_CET1 menu__link menu__link--sublist menu__link--sublist-caret" role=button aria-expanded=true href=/ape-mvp-docs/APE/reference/reference><span class=categoryLinkLabel_KTwE>Reference</span></a></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/reference/reference><span class=linkLabel_sH6V>Reference</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/reference/troubleshooting><span class=linkLabel_sH6V>Troubleshooting</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/ape-mvp-docs/APE/reference/cli-and-ssh-onboarding><span class=linkLabel_sH6V>CLI and SSH onboarding</span></a></ul></ul></nav></div></div></div></aside><main class=docMainContainer_Xy8l><div class="container padding-top--md padding-bottom--lg"><div class=bu-page><div class=row><div class="col docItemCol_iHUX"><div class=docItemContainer_EJiB><article><div class="tocCollapsible_cZdk theme-doc-toc-mobile tocMobile_v6wP"><button type=button class="clean-btn tocCollapsibleButton_vndH">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Sessions</h1></header>
+<p>A session is one prototype. Creating one gives you three things at once:</p>
+<ul>
+<li class="">A <strong>container</strong> – a private machine running the application and its dev server.</li>
+<li class="">A <strong>branch</strong> – <code>prototype/session-…</code>, where every change is committed.</li>
+<li class="">An <strong>agent</strong> – Claude Code, running inside that container, doing the editing.</li>
+</ul>
+<p>Everything else in APE is a view onto one of those three.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zg5f" id=creating-one>Creating one<a href=#creating-one class=hash-link aria-label="Direct link to Creating one" title="Direct link to Creating one" translate=no>​</a></h2>
+<p>From <strong>Templates</strong> or <strong>Projects</strong>, pick something and click <strong>Create session</strong>. On a real
+repo you can also choose which branch to start from; it defaults to the repo's default
+branch.</p>
+<p><strong>Explore</strong> on the home screen skips the picker and gives you a blank template
+immediately.</p>
+<p>You can also duplicate an existing session from its menu. That forks it at its current
+state, useful for trying two directions from the same starting point.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zg5f" id=statuses>Statuses<a href=#statuses class=hash-link aria-label="Direct link to Statuses" title="Direct link to Statuses" translate=no>​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Status<th>What it means<tbody><tr><td><code>pending</code><td>Queued, waiting for capacity.<tr><td><code>provisioning</code><td>The container is being created and the repo cloned.<tr><td><code>installing</code><td>Dependencies are installing. Skipped on pre-built templates.<tr><td><code>running</code><td>Ready. Preview live, agent available.<tr><td><code>sleeping</code><td>Idle. Wakes when you open it. See below.<tr><td><code>failed</code><td>Something went wrong during setup. There's a Retry button.<tr><td><code>stopped</code><td>You stopped it manually.<tr><td><code>completed</code><td>The pull request merged. The session is now read-only.</table>
+<p>The line under the splash during provisioning is the real setup log, so if it sits on
+"Installing dependencies" for a while, that's genuinely what it's doing.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zg5f" id=sleep>Sleep<a href=#sleep class=hash-link aria-label="Direct link to Sleep" title="Direct link to Sleep" translate=no>​</a></h2>
+<p>Containers are expensive to keep running, so idle sessions wind down in three stages.
+<strong>Your work is never affected by any of them</strong> – only how long it takes to come back.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>After idle<th>State<th>What happens<th>Coming back takes<tbody><tr><td>15 minutes<td>paused<td>The app is frozen in memory<td>Instant<tr><td>1 hour<td>stopped<td>Memory freed, files kept on disk<td>A few seconds<tr><td>24 hours<td>archived<td>Container removed<td>A rebuild from your branch</table>
+<p>Archived is the only one you'll really notice. The session rebuilds itself from your
+branch – same clone, same install as the first time – so a large repo can take a couple of
+minutes. The preview shows a restore screen with progress while it happens.</p>
+<p>Two things stop the clock: a running agent, and an open SSH connection. A session won't
+sleep out from under work in progress.</p>
+<p><strong>Sessions are never deleted automatically.</strong> Sleep only ever costs you time.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zg5f" id=ending-a-session>Ending a session<a href=#ending-a-session class=hash-link aria-label="Direct link to Ending a session" title="Direct link to Ending a session" translate=no>​</a></h2>
+<ul>
+<li class=""><strong>Stop</strong> shuts the container down without touching anything else. Reopening restarts it.</li>
+<li class=""><strong>Delete</strong> removes the session and its branch. This is the one irreversible action in
+APE. If there's anything worth keeping, open a pull request or download the workspace
+first.</li>
+<li class="">When a pull request merges, the session becomes <strong>completed</strong> and read-only
+automatically. The work has landed; the prototype is a record of how it got there.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_zg5f" id=naming>Naming<a href=#naming class=hash-link aria-label="Direct link to Naming" title="Direct link to Naming" translate=no>​</a></h2>
+<p>Sessions get an automatic name from your first prompt. Click it in the header to rename.
+Worth doing once you have more than a handful – the session switcher and the prototypes
+list both use it.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zg5f" id=capacity>Capacity<a href=#capacity class=hash-link aria-label="Direct link to Capacity" title="Direct link to Capacity" translate=no>​</a></h2>
+<p>Sessions run on shared infrastructure, so there's a ceiling on how many can be live at
+once. If you hit it, session creation fails with a capacity message rather than queuing
+forever.</p>
+<p>Deleting sessions you've finished with is the fix. Sleeping sessions past the one-hour
+mark aren't holding memory, so old work isn't what's in your way – active sessions are.</div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href=/ape-mvp-docs/APE/getting-started/quick-start><div class=pagination-nav__sublabel>Previous</div><div class=pagination-nav__label>Quick start</div></a><a class="pagination-nav__link pagination-nav__link--next" href=/ape-mvp-docs/APE/concepts/how-your-work-is-saved><div class=pagination-nav__sublabel>Next</div><div class=pagination-nav__label>How your work is saved</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_hO91 thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#creating-one class="table-of-contents__link toc-highlight">Creating one</a><li><a href=#statuses class="table-of-contents__link toc-highlight">Statuses</a><li><a href=#sleep class="table-of-contents__link toc-highlight">Sleep</a><li><a href=#ending-a-session class="table-of-contents__link toc-highlight">Ending a session</a><li><a href=#naming class="table-of-contents__link toc-highlight">Naming</a><li><a href=#capacity class="table-of-contents__link toc-highlight">Capacity</a></ul></div></div></div></div></div></main></div></div></div></div></body>
